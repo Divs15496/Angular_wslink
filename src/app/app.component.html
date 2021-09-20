@@ -1,0 +1,22 @@
+<div class="container">
+  <h3 class="h3">Welcome to WSLink demo application using NG</h3>
+  <div class="line">
+    <input 
+      class="input" 
+      type="text" 
+      [(ngModel)]="txt"
+      (keyup.enter)="onSendClick()">
+    <button class="button clear" (click)="onClearClick()">Clear</button>
+  </div>
+  <div class="line">
+    <button class="button start" (click)="onStartClick()">Start</button>
+    <button class="button stop" (click)="onStopClick()">Stop</button>
+  </div>
+  <textarea
+    disabled
+    rows="20"
+    class="textarea"
+    [(ngModel)]="allMessages"
+  ></textarea>
+</div>
+<!-- <router-outlet></router-outlet> -->

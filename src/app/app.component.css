@@ -1,0 +1,65 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+.h3 {
+  text-align: center;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.button {
+  width: 100px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.start {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.stop {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.clear {
+  color: #212529;
+  background-color: #d39e00;
+  border-color: #c69500;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.textarea {
+  width: 390px;
+  display: block;
+  resize: none;
+  margin-top: 20px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+}
